@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sohu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/sohu_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.example.sohu.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.sohu.MainActivity"/>
+        <activity android:name="com.example.sohu.HomeActivity"/>
+        <activity android:name="com.example.sohu.NewsActivity"/>
+        <activity android:name="com.example.sohu.PictureActivity"/>
+        <activity android:name="com.example.sohu.MoreActivity"/>
+    </application>
+
+</manifest>
